@@ -1,0 +1,41 @@
+#Anotações - MS/Azure (AZ-900)
+
+Este documento reúne resumos, anotações e dicas práticas sobre o uso da plataforma Microsoft Azure, com foco no processo de configuração de uma instância de Banco de Dados.  
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ☁️ Introdução ao Azure
+- O que é **Cloud Computing**?  
+  - Computação em nuvem permite acesso sob demanda a recursos (armazenamento, redes, servidores, bancos de dados, etc.) via internet.  
+
+- Modelos de serviço:  
+1. Domínio de objetivo - IaaS (Infraestrutura como serviço) - serviços que eu como cliente tenho mais envolvimento e acesso ao recurso final.
+2 - PaaS (Plataforma como serviço) - Preocupação com o banco de dados, preocupação com a aplicação. Fornece um ambiente para criação, teste e implantação de aplicativos de software. 
+3 - SaaS (Software como serviço) - acesso de forma completa e personalizado para as organizações. Ex: Microsoft office 365, e-mail e calendários - serviço que mais o cliente tem responsabilidades. 
+
+- Benefícios principais:  
+  - Escalabilidade  
+  - Redução de custos com infraestrutura  
+  - Alta disponibilidade  
+  - Segurança e conformidade  
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+##  Instância de Banco de Dados
+Objetivo: criar uma instância de banco de dados no portal do Azure.  
+
+ - Passo a passo realizado:
+1. Acessar o Portal do Azure.  
+2. Navegar até Criar Recurso > Banco de Dados.  
+3. Escolher o tipo de banco (ex.: SQL Database).  
+4. Definir grupo de recursos e nome da instância.  
+5. Configurar região (se atentar a este item), camada de preço (verificar se tem a possibilidade de ser criado gratuitamente) e credenciais de administrador.  
+6. Revisar e criar a instância.  
+7. Aguardar o provisionamento.  
+8. *Usar tags para organizar os recursos no portal.  
+9. Revisar permissões de acesso (rede/firewall) antes de tentar conectar ferramentas externas.  
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+## Conexão ao Banco
+- Ferramenta utilizada: Azure.  
